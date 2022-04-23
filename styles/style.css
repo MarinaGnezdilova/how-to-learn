@@ -86,13 +86,13 @@
   margin-top: 100px;
 }
 
-.two-column {
+.two-columns {
   display: flex;
   justify-content: space-between;
   width: 80%;
 }
 
-.two-column__brief {
+.two-columns__brief {
   margin: 0;
   padding: 0;
   max-width: 175px;
@@ -102,7 +102,7 @@
   color: #2f80ed;
 }
 
-.two-column__main-text {
+.two-columns__main-text {
   display: flex;
   flex-direction: column;
   width: 80%;
@@ -111,18 +111,18 @@
   font-weight: normal;
 }
 
-.two-column__paragraph {
+.two-columns__paragraph {
   margin: 0;
   padding: 0;
   min-width: 784px;
   margin-bottom: 30px;
 }
 
-.two-column__paragraph:last-of-type {
+.two-columns__paragraph:last-of-type {
   margin-bottom: 0px;
 }
 
-.two_column__span-accent {
+.two-columns__span-accent {
   font-weight: 700;
 }
 
